@@ -1,64 +1,154 @@
-<div align="center">
+# 바로장터
 
-![Typing SVG](https://readme-typing-svg.demolab.com?font=Space+Mono&weight=700&size=26&pause=900&color=9D7BFF&center=true&vCenter=true&width=650&lines=yo%2C+I%27m+a+middle+school+dev+%F0%9F%91%BE;%EC%A4%912%EC%9D%B8%EB%8D%B0+%EC%95%B1+%EB%A7%8C%EB%93%A4%EA%B3%A0+%EC%9E%88%EC%9D%8C;building+%3E+talking;Flutter+%2B+AI+%2B+too+many+ideas)
+**중학교 2학년 학생이 직접 개발하고 있는 지역 기반 중고거래 앱입니다.**
 
-# yo, 중2 개발자 등장 👾
+바로장터는 가까운 지역의 사람들과 쉽고 안전하게 중고 물건을 거래할 수 있도록 만든 서비스입니다.
 
-### `중학교 2학년` · `Flutter dev` · `AI랑 같이 만드는 중`
+단순히 포트폴리오용 화면만 만든 것이 아니라, 실제 앱 출시를 목표로 로그인, 상품 등록, 채팅, 신고, 거래 관리 등의 기능을 하나씩 직접 개발하고 있습니다.
 
-코딩 수행평가용 아니고 **진짜 사람들이 쓸 앱** 만들고 있어요.  
-모르는 건 배우고, 안 되면 고치고, 되면 바로 배포합니다.
+---
 
-![Middle school](https://img.shields.io/badge/MIDDLE_SCHOOL-2ND_YEAR-9D7BFF?style=for-the-badge)
-![Ship it](https://img.shields.io/badge/SHIP-%3E_TALK-00D4AA?style=for-the-badge)
-![Flutter](https://img.shields.io/badge/FLUTTER-LOVER-54C5F8?style=for-the-badge&logo=flutter&logoColor=white)
+## 프로젝트 소개
 
-</div>
+기존 중고거래 앱을 사용하면서 불편했던 점들을 직접 정리하고, 더 간단하고 편리한 거래 경험을 만들기 위해 시작했습니다.
 
-## 🛒 currently building: 바로장터
+현재는 울산, 부산, 서울 등 **시 단위 지역 거래**를 기준으로 개발하고 있으며, 개인 판매자는 지역 직거래를 중심으로 이용할 수 있도록 설계하고 있습니다.
 
-> 동네 사람들을 연결하는 장터 + 커뮤니티 앱
+---
 
-```text
-idea       ██████████  too many
-building   █████████░  every day
-giving up  ░░░░░░░░░░  0%
+## 주요 기능
+
+* 이메일 회원가입 및 로그인
+* 상품 등록, 수정, 삭제
+* 지역 기반 상품 탐색
+* 판매자 프로필 및 신뢰 정보
+* 실시간 채팅
+* 찜 및 관심 상품 관리
+* 판매 내역과 구매 내역
+* 상품 신고 및 사용자 차단
+* 거래 상태 변경
+* 알림 및 화면 이동
+* 개인정보 전송 감지 기능
+* 활동 조건에 따른 배지 시스템
+
+---
+
+## 안전한 거래를 위한 기능
+
+바로장터는 거래 기능만큼 안전한 사용 경험도 중요하게 생각합니다.
+
+채팅에서 전화번호나 계좌번호처럼 민감할 수 있는 정보가 감지되면 바로 전송하지 않고, 안내 메시지와 함께 잠시 취소할 수 있는 시간을 제공합니다.
+
+같은 상품을 반복해서 신고하는 행위를 방지하고, 신고하거나 차단한 사용자의 상품이 목록에 계속 노출되지 않도록 처리하고 있습니다.
+
+---
+
+## 기술 스택
+
+### App
+
+* Flutter
+* Dart
+
+### Backend
+
+* Supabase
+* PostgreSQL
+* Supabase Authentication
+* Supabase Storage
+
+### Deployment & Service
+
+* Vercel
+* Cloudflare
+* GitHub
+
+### Design
+
+* Figma
+* 자체 디자인 시스템 `FDS`
+* Apple HIG, Toss TDS, 당근 SEED 참고
+
+---
+
+## 디자인 시스템
+
+바로장터는 화면마다 제각각인 디자인이 생기지 않도록 자체 디자인 시스템인 **FDS, Functional Design System**을 사용합니다.
+
+색상, 간격, 버튼, 카드, 상태 표시, 모션 규칙 등을 공통으로 관리하고 있습니다.
+
+주요 포인트 컬러는 `#FF2400`입니다.
+
+---
+
+## 프로젝트를 만든 사람
+
+안녕하세요. 저는 현재 **중학교 2학년**이고, 디자인과 앱 개발에 관심이 많습니다.
+
+바로장터의 기획, UI·UX 디자인, 브랜드 디자인, 프론트엔드 개발과 백엔드 연결을 직접 진행하고 있습니다.
+
+아직 부족하거나 수정 중인 부분도 많지만, 실제 사람들이 사용할 수 있는 앱을 만드는 것을 목표로 계속 개발하고 있습니다.
+
+---
+
+## 현재 개발 상태
+
+바로장터는 현재 개발 중인 프로젝트입니다.
+
+* Flutter 앱 화면 개발
+* Supabase 데이터 연결
+* 로그인 및 사용자 기능
+* 상품과 채팅 기능
+* 신고 및 차단 기능
+* 디자인 시스템 정리
+* 출시 전 테스트 및 오류 수정
+
+일부 기능과 화면은 개발 과정에서 변경될 수 있습니다.
+
+---
+
+## 실행 방법
+
+```bash
+git clone https://github.com/사용자이름/저장소이름.git
+cd 저장소이름
+flutter pub get
+flutter run
 ```
 
-- 📱 Flutter로 앱 만드는 중
-- ⚡ Supabase로 백엔드 굴리는 중
-- 🎨 “작동함”에서 끝내지 않고 예쁘고 편하게 다듬는 중
-- 🤖 Codex와 같이 만들면서 개발 속도 올리는 중
+Supabase와 로그인 기능을 실행하려면 별도의 환경 설정이 필요합니다.
 
-## 🧃 my stack
+환경 변수나 서비스 키는 보안을 위해 저장소에 포함하지 않습니다.
 
+---
+
+## 스크린샷
+
+> 앱 스크린샷 추가 예정
+
+<!--
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=flutter,dart,supabase,postgres,firebase,git,github,vscode&theme=dark" alt="Flutter, Dart, Supabase, PostgreSQL, Firebase, Git, GitHub, VS Code" />
+  <img src="./assets/readme/home.png" width="240">
+  <img src="./assets/readme/detail.png" width="240">
+  <img src="./assets/readme/chat.png" width="240">
 </p>
+-->
 
-## 🤖 me × Codex
+---
 
-![Codex usage](./assets/codex-stats.svg)
+## 주의사항
 
-<sub>로컬 통계만 카드로 만들어요. 프롬프트나 개인정보는 공개하지 않습니다.</sub>
+이 저장소의 소스 코드, 디자인, 로고, 캐릭터 및 브랜드 자료를 허가 없이 복사하거나 상업적으로 사용하는 것을 금지합니다.
 
-## 🕹️ github.exe
+---
 
-<p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=YOUR_GITHUB_USERNAME&show_icons=true&theme=midnight-purple&hide_border=true&locale=kr" alt="GitHub stats" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_GITHUB_USERNAME&layout=compact&theme=midnight-purple&hide_border=true&locale=kr" alt="Top languages" />
-</p>
+## 문의
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/YOUR_GITHUB_USERNAME/YOUR_GITHUB_USERNAME/output/github-contribution-grid-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/YOUR_GITHUB_USERNAME/YOUR_GITHUB_USERNAME/output/github-contribution-grid-snake.svg" />
-  <img alt="GitHub contribution snake animation" src="https://raw.githubusercontent.com/YOUR_GITHUB_USERNAME/YOUR_GITHUB_USERNAME/output/github-contribution-grid-snake.svg" />
-</picture>
+* 서비스: 바로장터
+* 운영: 삼쩜칠오그램
+* 웹사이트: https://barojangter.com
 
-<div align="center">
+---
 
-### school by day · shipping by night 🌙
-
-`아직 중2`가 아니라 **벌써 중2부터 만드는 중.**
-
-</div>
+중학교 2학년 개발자가 실제 출시를 목표로 만들고 있는 프로젝트입니다.
+완성된 척하기보다는, 계속 고치고 발전시키는 과정을 기록하겠습니다.

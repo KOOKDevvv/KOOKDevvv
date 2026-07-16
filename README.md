@@ -1,154 +1,283 @@
-# 바로장터
+<div align="center">
 
-**중학교 2학년 학생이 직접 개발하고 있는 지역 기반 중고거래 앱입니다.**
+<img src="./assets/readme/banner.png" width="100%" alt="TrustenStudio GitHub Banner">
 
-바로장터는 가까운 지역의 사람들과 쉽고 안전하게 중고 물건을 거래할 수 있도록 만든 서비스입니다.
+<br><br>
 
-단순히 포트폴리오용 화면만 만든 것이 아니라, 실제 앱 출시를 목표로 로그인, 상품 등록, 채팅, 신고, 거래 관리 등의 기능을 하나씩 직접 개발하고 있습니다.
+# 안녕하세요, TrustenStudio입니다.
 
----
+### 중학교 2학년 디자이너이자 개발자입니다.
 
-## 프로젝트 소개
+브랜딩을 만들고, 앱을 디자인하고,
+직접 코드로 실제 서비스를 구현하고 있습니다.
 
-기존 중고거래 앱을 사용하면서 불편했던 점들을 직접 정리하고, 더 간단하고 편리한 거래 경험을 만들기 위해 시작했습니다.
+<br>
 
-현재는 울산, 부산, 서울 등 **시 단위 지역 거래**를 기준으로 개발하고 있으며, 개인 판매자는 지역 직거래를 중심으로 이용할 수 있도록 설계하고 있습니다.
+<img src="https://img.shields.io/badge/중학교_2학년-FF2400?style=for-the-badge">
+<img src="https://img.shields.io/badge/Brand_Designer-111111?style=for-the-badge">
+<img src="https://img.shields.io/badge/App_Developer-111111?style=for-the-badge">
+<img src="https://img.shields.io/badge/South_Korea-111111?style=for-the-badge">
 
----
-
-## 주요 기능
-
-* 이메일 회원가입 및 로그인
-* 상품 등록, 수정, 삭제
-* 지역 기반 상품 탐색
-* 판매자 프로필 및 신뢰 정보
-* 실시간 채팅
-* 찜 및 관심 상품 관리
-* 판매 내역과 구매 내역
-* 상품 신고 및 사용자 차단
-* 거래 상태 변경
-* 알림 및 화면 이동
-* 개인정보 전송 감지 기능
-* 활동 조건에 따른 배지 시스템
+</div>
 
 ---
 
-## 안전한 거래를 위한 기능
+## 저를 소개합니다
 
-바로장터는 거래 기능만큼 안전한 사용 경험도 중요하게 생각합니다.
-
-채팅에서 전화번호나 계좌번호처럼 민감할 수 있는 정보가 감지되면 바로 전송하지 않고, 안내 메시지와 함께 잠시 취소할 수 있는 시간을 제공합니다.
-
-같은 상품을 반복해서 신고하는 행위를 방지하고, 신고하거나 차단한 사용자의 상품이 목록에 계속 노출되지 않도록 처리하고 있습니다.
-
----
-
-## 기술 스택
-
-### App
-
-* Flutter
-* Dart
-
-### Backend
-
-* Supabase
-* PostgreSQL
-* Supabase Authentication
-* Supabase Storage
-
-### Deployment & Service
-
-* Vercel
-* Cloudflare
-* GitHub
-
-### Design
-
-* Figma
-* 자체 디자인 시스템 `FDS`
-* Apple HIG, Toss TDS, 당근 SEED 참고
-
----
-
-## 디자인 시스템
-
-바로장터는 화면마다 제각각인 디자인이 생기지 않도록 자체 디자인 시스템인 **FDS, Functional Design System**을 사용합니다.
-
-색상, 간격, 버튼, 카드, 상태 표시, 모션 규칙 등을 공통으로 관리하고 있습니다.
-
-주요 포인트 컬러는 `#FF2400`입니다.
-
----
-
-## 프로젝트를 만든 사람
-
-안녕하세요. 저는 현재 **중학교 2학년**이고, 디자인과 앱 개발에 관심이 많습니다.
-
-바로장터의 기획, UI·UX 디자인, 브랜드 디자인, 프론트엔드 개발과 백엔드 연결을 직접 진행하고 있습니다.
-
-아직 부족하거나 수정 중인 부분도 많지만, 실제 사람들이 사용할 수 있는 앱을 만드는 것을 목표로 계속 개발하고 있습니다.
-
----
-
-## 현재 개발 상태
-
-바로장터는 현재 개발 중인 프로젝트입니다.
-
-* Flutter 앱 화면 개발
-* Supabase 데이터 연결
-* 로그인 및 사용자 기능
-* 상품과 채팅 기능
-* 신고 및 차단 기능
-* 디자인 시스템 정리
-* 출시 전 테스트 및 오류 수정
-
-일부 기능과 화면은 개발 과정에서 변경될 수 있습니다.
-
----
-
-## 실행 방법
-
-```bash
-git clone https://github.com/사용자이름/저장소이름.git
-cd 저장소이름
-flutter pub get
-flutter run
+```text
+이름        TrustenStudio
+현재        중학교 2학년
+하는 일     브랜딩 디자인 · UI/UX · 앱 개발
+스튜디오    Trusten Studio
+팀/회사     삼쩜칠오그램
+대표 프로젝트 바로장터
 ```
 
-Supabase와 로그인 기능을 실행하려면 별도의 환경 설정이 필요합니다.
+아직 학생이지만 연습용 화면만 만드는 것보다
+**실제로 사람들이 사용할 수 있는 제품을 만드는 것**에 관심이 많습니다.
 
-환경 변수나 서비스 키는 보안을 위해 저장소에 포함하지 않습니다.
+로고와 브랜드를 만들고 끝내는 것이 아니라
+앱의 기능, 사용자 경험, 디자인 시스템과 개발까지 직접 연결해서 작업합니다.
+
+현재는 지역 기반 중고거래 앱 **바로장터**를 만들고 있습니다.
 
 ---
 
-## 스크린샷
+## 지금 만들고 있는 것
 
-> 앱 스크린샷 추가 예정
+<table>
+  <tr>
+    <td width="55%">
+      <a href="https://barojangter.com">
+        <img src="./assets/readme/barojangter-cover.png" width="100%" alt="바로장터">
+      </a>
+    </td>
+    <td width="45%" valign="top">
+
+### 바로장터
+
+지역 기반 중고거래 애플리케이션입니다.
+
+기획, 브랜딩, UI·UX 디자인부터
+Flutter 앱 개발과 Supabase 연결까지 직접 진행하고 있습니다.
+
+**현재 상태**
+
+* Flutter 앱 개발
+* 상품 등록 및 거래 관리
+* 실시간 채팅
+* 신고 및 차단
+* 배지와 신뢰 시스템
+* 출시 전 테스트
+
+<a href="https://barojangter.com">
+  <img src="https://img.shields.io/badge/웹사이트_보기-FF2400?style=for-the-badge">
+</a>
+
+  </td>
+  </tr>
+</table>
+
+---
+
+## 앱 데모
+
+<div align="center">
+
+<img src="./assets/readme/barojangter-demo.gif" width="300" alt="바로장터 앱 데모">
+
+<br><br>
+
+<a href="여기에_유튜브나_영상_링크">
+  <img src="./assets/readme/video-thumbnail.png" width="700" alt="개발 영상 보기">
+</a>
+
+<br>
+
+이미지를 누르면 전체 영상을 볼 수 있습니다.
+
+</div>
+
+---
+
+## 작업 분야
+
+<table>
+  <tr>
+    <td align="center" width="25%">
+      <img src="./assets/readme/branding.png" width="100%">
+      <br>
+      <b>Branding</b>
+      <br>
+      로고와 브랜드 시스템
+    </td>
+    <td align="center" width="25%">
+      <img src="./assets/readme/uiux.png" width="100%">
+      <br>
+      <b>UI / UX</b>
+      <br>
+      앱 화면과 사용자 경험
+    </td>
+    <td align="center" width="25%">
+      <img src="./assets/readme/development.png" width="100%">
+      <br>
+      <b>Development</b>
+      <br>
+      Flutter 앱 개발
+    </td>
+    <td align="center" width="25%">
+      <img src="./assets/readme/design-system.png" width="100%">
+      <br>
+      <b>Design System</b>
+      <br>
+      일관된 제품 디자인
+    </td>
+  </tr>
+</table>
+
+---
+
+## 사용하는 도구
+
+<div align="center">
+
+<img src="https://skillicons.dev/icons?i=flutter,dart,supabase,figma,github,vercel,cloudflare,ts,react,nextjs&perline=10">
+
+</div>
+
+<br>
+
+| 분야          | 도구                            |
+| ----------- | ----------------------------- |
+| Design      | Figma, Photoshop, Illustrator |
+| App         | Flutter, Dart                 |
+| Web         | React, Next.js, TypeScript    |
+| Backend     | Supabase, PostgreSQL          |
+| Deployment  | Vercel, Cloudflare            |
+| Development | GitHub, Codex                 |
+
+---
+
+## Codex 사용 기록
+
+Codex를 반복 작업, 코드 수정, 오류 분석과 검토에 사용합니다.
+
+기획과 디자인 방향, 기능 판단과 최종 결과물은 직접 결정합니다.
+
+<div align="center">
+
+<img src="https://img.shields.io/badge/Codex-개발_도구로_사용-000000?style=for-the-badge&logo=openai&logoColor=white">
+<img src="https://img.shields.io/badge/이번_달_사용량-직접_입력-FF2400?style=for-the-badge">
+
+<br><br>
+
+<img src="./assets/readme/codex-usage.png" width="700" alt="Codex 사용 기록">
+
+</div>
 
 <!--
-<p align="center">
-  <img src="./assets/readme/home.png" width="240">
-  <img src="./assets/readme/detail.png" width="240">
-  <img src="./assets/readme/chat.png" width="240">
-</p>
+Codex 사용량은 자동으로 불러오기 어려우므로 아래 배지의 문구를 직접 수정합니다.
+
+예시:
+https://img.shields.io/badge/이번_달_Codex-42시간-FF2400?style=for-the-badge
 -->
 
 ---
 
-## 주의사항
+## GitHub 기록
 
-이 저장소의 소스 코드, 디자인, 로고, 캐릭터 및 브랜드 자료를 허가 없이 복사하거나 상업적으로 사용하는 것을 금지합니다.
+<div align="center">
+
+<img height="165" src="https://github-readme-stats.vercel.app/api?username=KOOKDevvv&show_icons=true&hide_border=true&title_color=FF2400&icon_color=FF2400&text_color=555555&bg_color=00000000">
+
+<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_GITHUB_ID&layout=compact&hide_border=true&title_color=FF2400&text_color=555555&bg_color=00000000">
+
+<br>
+
+<img src="https://streak-stats.demolab.com?user=YOUR_GITHUB_ID&hide_border=true&ring=FF2400&fire=FF2400&currStreakLabel=FF2400&background=00000000">
+
+</div>
 
 ---
 
-## 문의
+## 개발 활동
 
-* 서비스: 바로장터
-* 운영: 삼쩜칠오그램
-* 웹사이트: https://barojangter.com
+<div align="center">
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=YOUR_GITHUB_ID&bg_color=transparent&color=777777&line=FF2400&point=FF2400&area=true&hide_border=true">
+
+</div>
 
 ---
 
-중학교 2학년 개발자가 실제 출시를 목표로 만들고 있는 프로젝트입니다.
-완성된 척하기보다는, 계속 고치고 발전시키는 과정을 기록하겠습니다.
+## 내가 중요하게 생각하는 것
+
+```text
+신뢰할 수 있는 디자인
+근거가 있는 선택
+불필요한 요소 제거
+겉모습보다 제품의 본질
+말보다 실제 결과
+```
+
+Trusten이라는 이름에는
+**Trust와 무언가를 만들어 낸다는 의미**를 담았습니다.
+
+예쁘게 보이는 것에만 집중하지 않고,
+사용할 이유가 있는 디자인을 만들고 싶습니다.
+
+---
+
+## 작업 사진
+
+<table>
+  <tr>
+    <td>
+      <img src="./assets/readme/work-01.png" width="100%">
+    </td>
+    <td>
+      <img src="./assets/readme/work-02.png" width="100%">
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <img src="./assets/readme/work-03.png" width="100%">
+    </td>
+    <td>
+      <img src="./assets/readme/work-04.png" width="100%">
+    </td>
+  </tr>
+</table>
+
+---
+
+## 연락
+
+<div align="center">
+
+<a href="https://barojangter.com">
+  <img src="https://img.shields.io/badge/바로장터-FF2400?style=for-the-badge">
+</a>
+
+<a href="https://www.threads.com/@owel_dev">
+  <img src="https://img.shields.io/badge/Threads-000000?style=for-the-badge&logo=threads&logoColor=white">
+</a>
+
+<a href="mailto:YOUR_EMAIL">
+  <img src="https://img.shields.io/badge/Email-111111?style=for-the-badge&logo=gmail&logoColor=white">
+</a>
+
+</div>
+
+<br>
+
+<div align="center">
+
+중학교 2학년이지만,
+학생 수준의 결과물에만 머무르지는 않겠습니다.
+
+<br>
+
+<img src="https://komarev.com/ghpvc/?username=YOUR_GITHUB_ID&color=FF2400&style=flat-square&label=Profile+Views">
+
+</div>

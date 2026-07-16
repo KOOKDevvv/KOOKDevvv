@@ -190,11 +190,11 @@ https://img.shields.io/badge/이번_달_Codex-42시간-FF2400?style=for-the-badg
 
 <img height="165" src="https://github-readme-stats.vercel.app/api?username=KOOKDevvv&show_icons=true&hide_border=true&title_color=FF2400&icon_color=FF2400&text_color=555555&bg_color=00000000">
 
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_GITHUB_ID&layout=compact&hide_border=true&title_color=FF2400&text_color=555555&bg_color=00000000">
+<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=KOOKDevvv&layout=compact&hide_border=true&title_color=FF2400&text_color=555555&bg_color=00000000">
 
 <br>
 
-<img src="https://streak-stats.demolab.com?user=YOUR_GITHUB_ID&hide_border=true&ring=FF2400&fire=FF2400&currStreakLabel=FF2400&background=00000000">
+<img src="https://streak-stats.demolab.com?user=KOOKDevvv&hide_border=true&ring=FF2400&fire=FF2400&currStreakLabel=FF2400&background=00000000">
 
 </div>
 
@@ -204,7 +204,7 @@ https://img.shields.io/badge/이번_달_Codex-42시간-FF2400?style=for-the-badg
 
 <div align="center">
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=YOUR_GITHUB_ID&bg_color=transparent&color=777777&line=FF2400&point=FF2400&area=true&hide_border=true">
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=KOOKDevvv&bg_color=transparent&color=777777&line=FF2400&point=FF2400&area=true&hide_border=true">
 
 </div>
 
@@ -278,6 +278,6 @@ Trusten이라는 이름에는
 
 <br>
 
-<img src="https://komarev.com/ghpvc/?username=YOUR_GITHUB_ID&color=FF2400&style=flat-square&label=Profile+Views">
+<img src="https://komarev.com/ghpvc/?username=KOOKDevvv&color=FF2400&style=flat-square&label=Profile+Views">
 
 </div>

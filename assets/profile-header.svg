@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="320" viewBox="0 0 900 320" role="img" aria-labelledby="title desc">
+  <title id="title">중학교 2학년 Flutter 개발자 프로필</title>
+  <desc id="desc">움직이는 보라색과 파란색 메시 그라데이션 위에 유리처럼 반투명한 프로필 패널이 있는 헤더</desc>
+  <defs>
+    <linearGradient id="base" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0D1026"/>
+      <stop offset="0.48" stop-color="#24174A"/>
+      <stop offset="1" stop-color="#0E1838"/>
+    </linearGradient>
+    <radialGradient id="pink" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#FF7BCB" stop-opacity="0.92"/>
+      <stop offset="1" stop-color="#FF7BCB" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="blue" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#6EA8FF" stop-opacity="0.9"/>
+      <stop offset="1" stop-color="#6EA8FF" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="lime" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#B7F88A" stop-opacity="0.72"/>
+      <stop offset="1" stop-color="#B7F88A" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="blur"><feGaussianBlur stdDeviation="30"/></filter>
+    <linearGradient id="glass" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FFFFFF" stop-opacity="0.2"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0.06"/>
+    </linearGradient>
+    <linearGradient id="line" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#FFFFFF" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#FFFFFF" stop-opacity="0.45"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="clip"><rect width="900" height="320" rx="40"/></clipPath>
+  </defs>
+
+  <g clip-path="url(#clip)">
+    <rect width="900" height="320" fill="url(#base)"/>
+    <g filter="url(#blur)">
+      <circle cx="115" cy="50" r="170" fill="url(#pink)">
+        <animate attributeName="cx" values="115;210;115" dur="11s" repeatCount="indefinite"/>
+        <animate attributeName="cy" values="50;120;50" dur="9s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="775" cy="42" r="190" fill="url(#blue)">
+        <animate attributeName="cx" values="775;680;775" dur="13s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="500" cy="330" r="150" fill="url(#lime)">
+        <animate attributeName="cx" values="500;620;500" dur="15s" repeatCount="indefinite"/>
+      </circle>
+    </g>
+    <path d="M0 84C148 29 212 113 354 68S617 11 900 87" fill="none" stroke="url(#line)" stroke-width="1" opacity="0.45"/>
+    <path d="M0 258C162 208 279 288 433 245S718 190 900 244" fill="none" stroke="url(#line)" stroke-width="1" opacity="0.28"/>
+    <rect x="38" y="38" width="824" height="244" rx="32" fill="url(#glass)" stroke="#FFFFFF" stroke-opacity="0.2"/>
+    <rect x="39" y="39" width="822" height="1" rx="1" fill="#FFFFFF" opacity="0.45"/>
+
+    <text x="76" y="88" fill="#D8D8EA" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="12" font-weight="700" letter-spacing="2">MIDDLE SCHOOL / 02</text>
+    <circle cx="244" cy="84" r="4" fill="#B7F88A"/>
+    <text x="76" y="160" fill="#FFFFFF" font-family="Pretendard, Arial, sans-serif" font-size="48" font-weight="700" letter-spacing="-2">중2, 앱 만드는 중</text>
+    <text x="80" y="201" fill="#E3E2F0" font-family="Pretendard, Arial, sans-serif" font-size="20" font-weight="500">Flutter로 바로장터를 만들고 있습니다.</text>
+    <text x="76" y="242" fill="#BEBBDA" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="12">FLUTTER  /  DART  /  SUPABASE</text>
+    <rect x="694" y="215" width="104" height="28" rx="14" fill="#FFFFFF" fill-opacity="0.13" stroke="#FFFFFF" stroke-opacity="0.22"/>
+    <text x="746" y="233" text-anchor="middle" fill="#FFFFFF" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="11" font-weight="700">BUILDING</text>
+  </g>
+</svg>
